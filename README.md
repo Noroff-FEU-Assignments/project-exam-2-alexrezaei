@@ -1,89 +1,56 @@
-# Project Exam 2
-## Goal
-To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate's general development capabilities, in addition to visual and technical skills.
+### `npm start`
 
-## Brief
-An existing Social Media company has approached you to create a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified. Working with the official API documentation, plan, design and build a modern front end social media application.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Requirements
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-> All admin functionality is managed by an existing application. This project only covers the front-end application for the API.
+### `npm run build`
 
-## API
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The API you are using for this project can be found under Social EndPoints in the [Noroff API documentation](https://noroff-api-docs.netlify.app/).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Resources
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[API Guide](https://noroff-api-docs.netlify.app/social-endpoints/authentication)
-[API Documentation](https://nf-api.onrender.com/docs)
+### `First step`
 
-### User Stories
+To use the social media site you need to first register a account with a valid noroff.no or stud.noroff.no email.\
+After registering an account you will need to login to get access to various features of the website. 
 
-The client has specified the following requirements in the form of *User Stories*:
-1. A user with a `stud.noroff.no` email may register
-2. A registered user may login
-3. A registered user may update their avatar and banner
-4. A registered user may logout
-5. A registered user may view a list of `Posts`
-6. A registered user may view a list of `Profiles`
-7. A registered user may view a single `Post` by `id`
-8. A registered user may view a single `Profile` by `name`
-9. A registered user may create a `Post`
-10. A registered user may update a `Post` they own
-11. A registered user may delete a `Post` they own
-12. A registered user may create a `Comment` on any `Post`
-13. A registered user may `react` to any `Post` with an emoji
-14. A registered user may `follow` and `unfollow` another `Profile`
 
-### Technical Restrictions
+### `Your Profile information`
 
-The company CTO has set the following technical restrictions:
-1. Must use an approved `JavaScript Framework`
-2. Must use an approved `CSS Framework`
-3. Must be hosted on an approved `Static Host`
-4. Must use an approved `Design Application`
-5. Must use an approved `Planning Application`
+Your profile information can be found at /profile/
 
-### Required Links
+### `Updating Your Banner and Avatar`
 
-The Product Owner has requested links to the following:
-1. A Gantt chart for project timing
-2. A design prototype
-3. A style guide
-4. A kanban project board
-5. A repository link
-6. A hosted application demo link
+To update your Banner or Avatar you will need to visit /profile/. 
+Here you will see your profile information and a form which takes two inputs, you only need to fill out one of the two inputs to update.
 
-## Approved Resources
-This list covers libraries and services that have been vetted by the company and approved for use.
 
-### JavaScript Frameworks
-- React (>16)
+### `Your posts / Delete post`
 
-### CSS Frameworks
-- Bootstrap (>5)
-- Tailwind (>3)
-- MUI (>5)
-- Styled Components
-- CSS Modules
+at /profile/ under the profile information there will be a list of your posts where you can see all the posts you have created. \
+You can Also choose to delete any of your posts here. 
 
-### Hosting Services
-- GitHub Pages
-- Netlify
 
-### Design Applications
-- Adobe XD
-- Figma
-- Sketch
+### `All posts / visit Profile / follow/unfollow profile`
+/allposts/ contains all posts by users you will get a list of posts with titles which you can choose to visit and see more of such as the contents of the post. /
+You can visit a profile by first checking out a post then clicking the username of the author of the post, there you will redirected to the specific user and visit their profile page, here you will see their profile information and all their posts and also a follow/unfollow buttons.
 
-### Planning Applications
-- Trello
-- GitHub Projects
 
-## Delivery
-Include the required links in the Moodle delivery window using [this template format](delivery-template.html).
+### `How this project was made` 
 
-All final changes must be merged into the default branch `main` or `master`. Other branches will not be checked.
+This project was made using 
 
-Ensure that the `readme.md` file describes your project thoroughly, including how to setup and run the project locally and any special instructions for testers.
+1. React
+2. Tailwind
+3. react-router-dom
+
+Design done in 
+
+1. figma

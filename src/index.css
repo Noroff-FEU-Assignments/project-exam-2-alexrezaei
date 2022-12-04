@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@layer base {
+  body {
+    @apply font-poppins
+  }
+  h1 {
+    @apply text-[40px] font-bold sm:text-[65px]
+  }
+  a {
+    @apply text-[#13D5FF] hover:text-white
+  }
+  h1,h2,h3,p,li {
+    @apply text-white
+  }
+  body {
+    @apply bg-black
+  }
+  li {
+    @apply p-4 text-white text-[20px]
+  }
+  button {
+    @apply px-[47px] py-[15px] border-[1px] rounded-[10px]  border-solid border-white text-[20px] font-bold text-white hover:bg-white hover:text-black
+  }
+
+  input {
+    @apply h-[42px] text-[18px] font-bold pl-[10px] rounded-[5px] mt-[16px] mb-[16px]
+  }
+}
