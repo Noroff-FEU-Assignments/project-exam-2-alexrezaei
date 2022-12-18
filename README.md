@@ -1,56 +1,58 @@
-### `npm start`
+# project exam 2 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](./src/assets/socialyou.jpeg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A social media website that uses a social media api provided by Noroff.
 
-### `npm run build`
+## Description
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is a social media app that uses multiple api calls to do many different things.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Login authentication
+- Loading list of posts/users
+- editing/deleting specific posts owned by the logged inn profile
+- Follow/Unfollow profiles
+- Form authentcation for the many different forms on the website
+- Updating user profile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `First step`
+You can list a the tech stack that you've used over here
 
-To use the social media site you need to first register a account with a valid noroff.no or stud.noroff.no email.\
-After registering an account you will need to login to get access to various features of the website. 
+- [React.js](https://reactjs.org/)
+- [Tailwind](https://tailwindui.com/)
+- [React-hook-form](https://react-hook-form.com/)
 
+## Getting Started
 
-### `Your Profile information`
+### Installing
 
-Your profile information can be found at /profile/
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-### `Updating Your Banner and Avatar`
+1. Clone the repo:
 
-To update your Banner or Avatar you will need to visit /profile/. 
-Here you will see your profile information and a form which takes two inputs, you only need to fill out one of the two inputs to update.
+```bash
+git clone git@github.com:Noroff-FEU-Assignments/project-exam-2-alexrezaei.git
+```
 
+2. Install the dependencies:
 
-### `Your posts / Delete post`
+```
+npm install
+```
 
-at /profile/ under the profile information there will be a list of your posts where you can see all the posts you have created. \
-You can Also choose to delete any of your posts here. 
+### Running
 
+To run the app, run the following commands:
 
-### `All posts / visit Profile / follow/unfollow profile`
-/allposts/ contains all posts by users you will get a list of posts with titles which you can choose to visit and see more of such as the contents of the post. /
-You can visit a profile by first checking out a post then clicking the username of the author of the post, there you will redirected to the specific user and visit their profile page, here you will see their profile information and all their posts and also a follow/unfollow buttons.
+```bash
+npm run start
+```
 
+## Contributing
 
-### `How this project was made` 
+If you want to contribute to this website please make a pull reuqest so that the code can be reviewed then added :)
 
-This project was made using 
+## Contact
 
-1. React
-2. Tailwind
-3. react-router-dom
-
-Design done in 
-
-1. figma
+[https://www.linkedin.com/in/alexander-rezaei-382126205/](www.linkedin.com)
