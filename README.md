@@ -23,6 +23,7 @@ This project is a social media app that uses multiple api calls to do many diffe
 
 ## Getting Started
 
+FYI -> You need register an account on the website with a @stud.noroff.no or @noroff.no email to login and use all the functionality of the website
 ### Installing
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
