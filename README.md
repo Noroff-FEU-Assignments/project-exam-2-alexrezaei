@@ -17,8 +17,6 @@ This project is a social media app that uses multiple api calls to do many diffe
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [React.js](https://reactjs.org/)
 - [Tailwind](https://tailwindui.com/)
 - [React-hook-form](https://react-hook-form.com/)
@@ -55,4 +53,4 @@ If you want to contribute to this website please make a pull reuqest so that the
 
 ## Contact
 
-[https://www.linkedin.com/in/alexander-rezaei-382126205/](www.linkedin.com)
+[Linkedin](https://www.linkedin.com/in/alexander-rezaei-382126205/)
